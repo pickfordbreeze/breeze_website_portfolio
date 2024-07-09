@@ -108,16 +108,20 @@ nav ul li a.active {
     font-size: 14px;
     color: #666;
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
+    text-align: left;
 }
 
 .image-container .title {
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     color: #333;
+    white-space: nowrap;
+    display: inline;
+}
+
+.image-container .description {
+    display: inline;
+    white-space: normal;
 }
 
 footer {
