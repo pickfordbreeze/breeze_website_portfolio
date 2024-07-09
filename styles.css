@@ -114,8 +114,8 @@ nav ul li a.active {
 }
 
 .image-container .title {
-    font-weight: bold;
-    font-family: 'Newsreader', serif;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
     color: #333;
 }
 
