@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    position: relative;
 }
 
 header {
@@ -138,4 +139,58 @@ footer a {
     color: #426B1F;
     font-weight: 400;
     /* Inter Regular */
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.contact-image {
+    position: absolute;
+    width: 744px;
+    height: 961px;
+    left: 99px;
+    top: 436px;
+}
+
+.contact-info {
+    position: absolute;
+    left: 900px;
+    /* adjust val as needed */
+    top: 500px;
+    /* adjust val as needed */
+    text-align: left;
+    max-width: 45%;
+}
+
+.contact-info h2 {
+    font-family: 'Newsreader', serif;
+    color: #426B1F;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.linkedin {
+    background-color: #2867B2;
+}
+
+.github {
+    background-color: #6CC644;
 }
