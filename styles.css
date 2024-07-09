@@ -57,17 +57,26 @@ nav ul li a.active {
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
-    position: relative;
     margin-top: 50px;
+    /* Adjusted margin to raise the hero section */
+    margin-bottom: 0;
+    /* Ensure no bottom margin */
+    border: none;
+    /* Remove any unintended borders */
+    box-shadow: none;
+    /* Remove any unintended box shadows */
 }
 
 .hero-text {
-    position: absolute;
-    left: 222px;
-    right: 198px;
-    top: 147px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
     text-align: center;
     color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero .headline-small {
@@ -97,10 +106,7 @@ nav ul li a.active {
     font-size: 16px;
     text-decoration: none;
     cursor: pointer;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 500px;
+    margin-top: 20px;
 }
 
 .hero .button:hover {
@@ -113,6 +119,7 @@ nav ul li a.active {
     justify-content: space-around;
     padding: 20px;
     background-color: #fff;
+    margin-top: 50px;
 }
 
 .image-container {
