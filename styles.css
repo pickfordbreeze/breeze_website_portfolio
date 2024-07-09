@@ -1,5 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    /* Default to Inter Light */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -17,6 +19,8 @@ header {
 
 header .logo {
     font-family: 'Newsreader', serif;
+    font-weight: 500;
+    /* Newsreader Medium */
     font-size: 24px;
     color: #426B1F;
 }
@@ -35,7 +39,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #333;
-    font-weight: 700;
+    font-weight: 400;
+    /* Inter Regular */
 }
 
 nav ul li a.active {
@@ -43,6 +48,8 @@ nav ul li a.active {
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+    font-weight: 600;
+    /* Inter Semi Bold */
 }
 
 .hero {
@@ -53,22 +60,27 @@ nav ul li a.active {
 
 .hero h1 {
     font-family: 'Newsreader', serif;
+    font-weight: 500;
+    /* Newsreader Medium */
     font-size: 36px;
     color: #333;
     margin-bottom: 20px;
 }
 
-.hero button {
+.hero .button {
     background-color: #426B1F;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    text-decoration: none;
     cursor: pointer;
+    font-weight: 600;
+    /* Inter Semi Bold */
 }
 
-.hero button:hover {
+.hero .button:hover {
     background-color: #365316;
 }
 
@@ -90,11 +102,22 @@ nav ul li a.active {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.image-container p {
+.image-container .title {
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* Inter Medium */
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.image-container .description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    /* Inter Light */
     font-size: 14px;
     color: #666;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 footer {
@@ -113,5 +136,6 @@ footer .footer-logo {
 footer a {
     text-decoration: none;
     color: #426B1F;
-    font-weight: 700;
+    font-weight: 400;
+    /* Inter Regular */
 }
