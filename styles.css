@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -55,16 +55,17 @@ nav ul li a.active {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
     background-color: #fff;
     position: relative;
+    margin-top: 50px;
 }
 
 .hero-text {
     position: absolute;
     left: 222px;
     right: 198px;
-    top: 247px;
+    top: 147px;
     text-align: center;
     color: #000;
 }
