@@ -55,17 +55,36 @@ nav ul li a.active {
 
 .hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 100px 20px;
     background-color: #fff;
+    position: relative;
 }
 
-.hero h1 {
+.hero-text {
+    position: absolute;
+    left: 222px;
+    right: 198px;
+    top: 247px;
+    text-align: center;
+    color: #000;
+}
+
+.hero .headline-small {
     font-family: 'Newsreader', serif;
-    font-weight: 500;
-    /* Newsreader Medium */
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.hero .headline-large {
+    font-family: 'Newsreader', serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    margin: 0;
 }
 
 .hero .button {
@@ -77,13 +96,16 @@ nav ul li a.active {
     font-size: 16px;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 600;
-    /* Inter Semi Bold */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 500px;
 }
 
 .hero .button:hover {
     background-color: #365316;
 }
+
 
 .images {
     display: flex;
