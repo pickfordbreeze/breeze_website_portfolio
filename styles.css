@@ -259,6 +259,16 @@ footer a {
 
 .linkedin {
     background-color: #2867B2;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 150px;
 }
 
 .github {
@@ -485,6 +495,18 @@ footer a {
     margin: 0 0 20px 0;
 }
 
+/*github button issue fixes*/
+/* General Button Styles */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Projects Page */
 .github-button {
     background-color: #000;
     color: #fff;
@@ -493,8 +515,31 @@ footer a {
     font-size: 18px;
     text-decoration: none;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .github-button:hover {
     background-color: #333;
+}
+
+/* Contact Page */
+.contact-github-button {
+    background-color: #6CC644;
+    /* Green color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contact-github-button:hover {
+    background-color: #5ba536;
+    /* Darker green on hover */
 }
