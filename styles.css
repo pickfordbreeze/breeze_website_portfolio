@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 7rem;
+    padding: 4rem 0rem;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     margin: 0;
     position: fixed;
@@ -33,6 +33,7 @@ header .logo {
     font-weight: 500;
     font-size: 3.2rem;
     color: #426B1F;
+    padding-left: 5rem;
 }
 
 /* Hide the nav items initially */
@@ -40,6 +41,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-right: 3rem;
     display: flex;
 }
 
@@ -292,29 +294,33 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
     background-color: #fff;
     margin-bottom: 0;
     flex-wrap: wrap;
 }
 
 .about-image img {
+    max-width: 60rem;
     width: 100%;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 15rem;
 }
 
 .about-info {
-    margin-left: 2rem;
+    margin-left: 0rem;
+    margin-right: 10rem;
     text-align: left;
 }
 
 .about-info .button {
     display: block;
     margin-top: 6rem;
-    margin-left: 15rem;
+    margin-left: 0rem;
     padding: 2rem 4rem;
     border: none;
     border-radius: 0.8rem;
@@ -337,7 +343,7 @@ footer a {
     padding: 1rem 4rem;
     background-color: #fff;
     width: 80rem;
-    margin: 0 0;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -349,8 +355,8 @@ footer a {
     margin-bottom: 2rem;
     text-transform: uppercase;
     position: absolute;
-    left: -7rem;
-    top: 1rem;
+    left: -9rem;
+    top: 6rem;
 }
 
 .about-text p {

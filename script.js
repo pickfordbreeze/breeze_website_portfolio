@@ -1,4 +1,25 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Menu Toggle for Mobile Devices
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('show');
+    });
+
+    // Hide the menu toggle button if not on mobile
+    function handleResize() {
+        if (window.innerWidth > 768) {
+            nav.classList.remove('show');
+            menuToggle.style.display = 'none';
+        } else {
+            menuToggle.style.display = 'block';
+        }
+    }
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
     //gallery on project page
     const galleryItemsData = [
         {
@@ -105,25 +126,4 @@ document.addEventListener('DOMContentLoaded', function () {
     nextBtn.addEventListener('click', showNextItem);
 
     showGalleryItem(currentIndex);
-
-    // Menu Toggle for Mobile Devices
-    const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('nav ul');
-
-    menuToggle.addEventListener('click', function () {
-        nav.classList.toggle('show');
-    });
-
-    // Hide the menu toggle button if not on mobile
-    function handleResize() {
-        if (window.innerWidth > 768) {
-            nav.classList.remove('show');
-            menuToggle.style.display = 'none';
-        } else {
-            menuToggle.style.display = 'block';
-        }
-    }
-
-    window.addEventListener('resize', handleResize);
-    handleResize();
 });
