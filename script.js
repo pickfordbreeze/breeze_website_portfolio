@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Description of Project 4.'
         },
         {
+            
             imgSrc: 'images/emotephone.JPG',
             title: 'Interactive Website with Audio',
             description: 'Description of Project 5.'
