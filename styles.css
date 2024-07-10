@@ -1,8 +1,14 @@
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px for easier calculations */
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     margin: 0;
     padding: 0;
+    padding-top: 10rem;
     background-color: #f4f4f4;
     color: #333;
     position: relative;
@@ -13,15 +19,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 70px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 4rem 7rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 header .logo {
     font-family: 'Newsreader', serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 3.2rem;
     color: #426B1F;
 }
 
@@ -33,29 +43,29 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 35px;
+    margin: 0 3.5rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 nav ul li a.active {
     background-color: #426B1F;
     color: #fff;
-    padding: 15px 40px;
-    border-radius: 8px;
+    padding: 1.5rem 4rem;
+    border-radius: 0.8rem;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 130%;
 }
 
 .hero {
     text-align: center;
-    padding: 120px 20px;
+    padding: 12rem 2rem;
     background-color: #fff;
     margin-top: 0;
     margin-bottom: 0;
@@ -78,7 +88,7 @@ nav ul li a.active {
 .hero .headline-small {
     font-family: 'Newsreader', serif;
     font-weight: 350;
-    font-size: 55px;
+    font-size: 5.5rem;
     line-height: 130%;
     letter-spacing: -0.02em;
     margin: 0;
@@ -87,7 +97,7 @@ nav ul li a.active {
 .hero .headline-large {
     font-family: 'Newsreader', serif;
     font-weight: 350;
-    font-size: 64px;
+    font-size: 6.4rem;
     line-height: 130%;
     letter-spacing: -0.02em;
     margin: 0;
@@ -96,14 +106,14 @@ nav ul li a.active {
 .hero .button {
     background-color: #426B1F;
     color: #fff;
-    padding: 18px 32px;
+    padding: 1.8rem 3.2rem;
     border: none;
-    border-radius: 8px;
-    font-size: 20px;
+    border-radius: 0.8rem;
+    font-size: 2rem;
     line-height: 130%;
     text-decoration: none;
     cursor: pointer;
-    margin-top: 80px;
+    margin-top: 8rem;
 }
 
 .hero .button:hover {
@@ -112,10 +122,9 @@ nav ul li a.active {
 
 .images {
     position: relative;
-    padding: 70px;
+    padding: 7rem;
     background-color: #fff;
-    min-height: 800px;
-    /* Ensure enough height to accommodate images */
+    min-height: 80rem;
 }
 
 .image-container {
@@ -123,31 +132,31 @@ nav ul li a.active {
 }
 
 #image1 {
-    width: 504px;
-    height: 693px;
-    left: 96px;
-    top: 50px;
+    width: 50.4rem;
+    height: 69.3rem;
+    left: 9.6rem;
+    top: 5rem;
 }
 
 #image2 {
-    width: 780px;
-    height: 480px;
-    left: 660px;
-    top: 50px;
+    width: 78rem;
+    height: 48rem;
+    left: 66rem;
+    top: 5rem;
 }
 
 .image-container img {
     width: 100%;
     height: auto;
-    border-radius: 0px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.8rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 
 .image-container p {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #666;
-    margin-top: 25px;
+    margin-top: 2.5rem;
     text-align: left;
 }
 
@@ -169,21 +178,18 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 90px;
-    margin-top: 0px;
+    padding: 1rem 9rem;
+    margin-top: 0;
     bottom: 0;
-    height: 140px;
-    /* Ensure it is below the images */
+    height: 14rem;
     position: relative;
     box-sizing: border-box;
-    /* Ensure it is positioned relative to the images */
 }
 
 footer .footer-logo {
     font-family: 'Newsreader', serif;
     color: #426B1F;
-    font-size: 32px;
-    ;
+    font-size: 3.2rem;
 }
 
 footer a {
@@ -192,10 +198,10 @@ footer a {
     font-weight: 400;
 }
 
-/* Contact page */
+/* Contact Page */
 .contact-hero {
     text-align: center;
-    padding: 120px 20px;
+    padding: 12rem 2rem;
     background-color: #fff;
     margin-top: 0;
     margin-bottom: 0;
@@ -206,7 +212,7 @@ footer a {
 .contact-hero h1 {
     font-family: 'Newsreader', serif;
     font-weight: 350;
-    font-size: 64px;
+    font-size: 6.4rem;
     line-height: 130%;
     letter-spacing: -0.02em;
     color: #000;
@@ -217,107 +223,99 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 70px;
+    padding: 7rem;
     background-color: #fff;
     position: relative;
 }
 
 .contact-image img {
-    width: 744px;
-    height: 961px;
+    width: 74.4rem;
+    height: 96.1rem;
     object-fit: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
-    margin-left: 50px;
+    margin-left: 5rem;
     text-align: left;
-    max-width: 300px;
+    max-width: 30rem;
 }
 
 .contact-info h2 {
     font-family: 'Newsreader', serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 100%;
     color: #426B1F;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .button {
     display: block;
-    margin: 10px 0;
-    padding: 10px 20px;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     text-decoration: none;
     color: #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor: pointer;
 }
 
 .linkedin {
     background-color: #2867B2;
     display: block;
-    margin: 10px 0;
-    padding: 10px 20px;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     text-decoration: none;
     color: #fff;
     text-align: center;
-    font-size: 16px;
-    width: 150px;
+    font-size: 1.6rem;
+    width: 15rem;
 }
 
 .github {
     background-color: #6CC644;
 }
 
-/* about page */
+/* About Page */
 .about-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    padding-bottom: 30px;
+    padding: 4rem 2rem;
     background-color: #fff;
     margin-bottom: 0;
-}
-
-.about-image {
-    margin-left: -300px;
-    /* Move the image to the left */
-    margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .about-image img {
-    width: 530px;
-    height: 520px;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 0;
-    margin-left: 200px;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
 }
 
 .about-info {
-    margin-left: 50px;
+    margin-left: 2rem;
     text-align: left;
-    margin-bottom: 0;
 }
 
 .about-info .button {
     display: block;
-    margin-top: 60px;
-    margin-left: 150px;
-    padding: 20px 40px;
+    margin-top: 6rem;
+    margin-left: 15rem;
+    padding: 2rem 4rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     text-decoration: none;
     color: #fff;
     text-align: left;
-    font-size: 20px;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -330,9 +328,9 @@ footer a {
 }
 
 .about-text {
-    padding: 10px 400px;
+    padding: 1rem 4rem;
     background-color: #fff;
-    width: 800px;
+    width: 80rem;
     margin: 0 0;
     position: relative;
 }
@@ -340,34 +338,32 @@ footer a {
 .about-text h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     text-transform: uppercase;
     position: absolute;
-    left: -70px;
-    top: 10px;
-    /* Adjust to position slightly below the top of the text */
+    left: -7rem;
+    top: 1rem;
 }
 
 .about-text p {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #333;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .about-text p strong {
     font-weight: 700;
 }
 
-/*project page*/
 /* Projects Page */
 .hero h1 {
     font-family: 'Newsreader', serif;
     font-weight: 350;
-    font-size: 64px;
+    font-size: 6.4rem;
     line-height: 130%;
     letter-spacing: -0.02em;
     color: #000;
@@ -376,7 +372,7 @@ footer a {
 
 .gallery {
     text-align: center;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     background-color: #fff;
     margin-top: 0;
     margin-bottom: 0;
@@ -390,10 +386,10 @@ footer a {
     justify-content: center;
     align-items: center;
     position: relative;
-    max-width: 1000px;
+    max-width: 100rem;
     margin: 0 auto;
     overflow: hidden;
-    height: 500px;
+    height: 50rem;
 }
 
 .gallery-item {
@@ -413,34 +409,31 @@ footer a {
     cursor: pointer;
 }
 
-/* Adjust size of current image in the gallery */
 .gallery-item img {
     max-width: 70%;
-    /* Adjust this value as needed */
     max-height: 70%;
-    /* Adjust this value as needed */
-    border-radius: 8px;
+    border-radius: 0.8rem;
     transition: max-width 0.5s ease, max-height 0.5s ease;
 }
 
 .gallery-item .caption {
-    margin-top: 30px;
+    margin-top: 3rem;
     text-align: center;
 }
 
 .gallery-item .caption h3 {
     font-family: 'Newsreader', serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #333;
     margin: 0;
 }
 
 .gallery-item .caption p {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #333;
     line-height: 1.6;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .gallery-item.current {
@@ -457,10 +450,8 @@ footer a {
     background-position: center;
     border: none;
     padding: 0;
-    width: 160px;
-    /* Reduced size */
-    height: 160px;
-    /* Reduced size */
+    width: 16rem;
+    height: 16rem;
     cursor: pointer;
     z-index: 1;
     opacity: 0.5;
@@ -473,35 +464,34 @@ footer a {
 }
 
 #prevBtn {
-    left: 100px;
+    left: 10px;
 }
 
 #nextBtn {
-    right: 100px;
+    right: 10px;
 }
 
 .github {
     text-align: center;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     background-color: white;
 }
 
 .github h2 {
     font-family: 'Newsreader', serif;
     font-weight: 350;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 130%;
     color: #000;
-    margin: 0 0 20px 0;
+    margin: 0 0 2rem 0;
 }
 
-/*github button issue fixes*/
 /* General Button Styles */
 .button {
     display: inline-block;
-    padding: 15px 30px;
-    border-radius: 5px;
-    font-size: 18px;
+    padding: 1.5rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
     cursor: pointer;
 }
@@ -510,12 +500,12 @@ footer a {
 .github-button {
     background-color: #000;
     color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    font-size: 18px;
+    padding: 1.5rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .github-button:hover {
@@ -525,22 +515,120 @@ footer a {
 /* Contact Page */
 .contact-github-button {
     background-color: #6CC644;
-    /* Green color */
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
     text-decoration: none;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 2rem;
     display: block;
-    margin: 10px 0;
+    margin: 1rem 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
-
 
 .contact-github-button:hover {
     background-color: #5ba536;
-    /* Darker green on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    .hero {
+        padding: 6rem 2rem;
+    }
+
+    .hero .headline-small {
+        font-size: 2.4rem;
+    }
+
+    .hero .headline-large {
+        font-size: 3.2rem;
+    }
+
+    .images {
+        padding: 3rem 1rem;
+    }
+
+    .image-container {
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+
+    .contact-content,
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-image img,
+    .about-image img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info,
+    .about-info {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .gallery-container {
+        height: auto;
+    }
+
+    .gallery-item img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    #prevBtn,
+    #nextBtn {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero .headline-small {
+        font-size: 2rem;
+    }
+
+    .hero .headline-large {
+        font-size: 2.8rem;
+    }
+
+    .github h2 {
+        font-size: 2rem;
+    }
+
+    .gallery-item .caption h3 {
+        font-size: 2rem;
+    }
+
+    .gallery-item .caption p {
+        font-size: 1.4rem;
+    }
 }
