@@ -35,6 +35,7 @@ header .logo {
     color: #426B1F;
 }
 
+/* Hide the nav items initially */
 nav ul {
     list-style: none;
     margin: 0;
@@ -62,6 +63,11 @@ nav ul li a.active {
     font-size: 1.6rem;
     line-height: 130%;
 }
+
+.menu-toggle {
+    display: none;
+}
+
 
 .hero {
     text-align: center;
@@ -541,12 +547,28 @@ footer a {
     }
 
     nav ul {
+        display: none;
+        /* Hide the nav items by default */
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
     }
 
     nav ul li {
         margin: 1rem 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #333;
+        margin: 0 1rem;
+    }
+
+    nav ul.show {
+        display: flex;
+        /* Shows the nav items when toggled */
     }
 
     .hero {
