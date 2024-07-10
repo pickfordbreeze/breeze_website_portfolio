@@ -192,32 +192,54 @@ footer a {
     font-weight: 400;
 }
 
+/* Contact page */
+.contact-hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.contact-hero h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 350;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 0;
+}
+
 .contact-content {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px;
     background-color: #fff;
     position: relative;
 }
 
-.contact-image {
-    position: absolute;
+.contact-image img {
     width: 744px;
     height: 961px;
-    left: 99px;
-    top: 436px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
-    position: absolute;
-    left: 900px;
+    margin-left: 50px;
     text-align: left;
-    max-width: 45%;
+    max-width: 300px;
 }
 
 .contact-info h2 {
     font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
     color: #426B1F;
     margin-bottom: 20px;
 }
@@ -241,4 +263,91 @@ footer a {
 
 .github {
     background-color: #6CC644;
+}
+
+/* about page */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.about-image {
+    margin-left: -300px;
+    /* Move the image to the left */
+    margin-bottom: 0;
+}
+
+.about-image img {
+    width: 530px;
+    height: 520px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    margin-left: 200px;
+}
+
+.about-info {
+    margin-left: 50px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.about-info .button {
+    display: block;
+    margin-top: 60px;
+    margin-left: 150px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.about-info .linkedin {
+    background-color: #426B1F;
+}
+
+.about-info .resume {
+    background-color: #426B1F;
+}
+
+.about-text {
+    padding: 10px 400px;
+    background-color: #fff;
+    width: 800px;
+    margin: 0 0;
+    position: relative;
+}
+
+.about-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    left: -70px;
+    top: 10px;
+    /* Adjust to position slightly below the top of the text */
+}
+
+.about-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-text p strong {
+    font-weight: 700;
 }
