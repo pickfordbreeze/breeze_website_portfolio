@@ -476,11 +476,11 @@ footer a {
 }
 
 #prevBtn {
-    left: 10px;
+    left: 10rem;
 }
 
 #nextBtn {
-    right: 10px;
+    right: 10rem;
 }
 
 .github {
