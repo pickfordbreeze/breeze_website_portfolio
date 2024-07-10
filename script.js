@@ -1,32 +1,32 @@
 document.addEventListener('DOMContentLoaded', function () {
     const galleryItemsData = [
         {
-            imgSrc: 'images/turtle_site.jpg',
+            imgSrc: 'images/turtle_site.JPG',
             title: 'Malama i Na Honu Site Project',
             description: 'Description of Project 1.'
         },
         {
-            imgSrc: 'images/sail_app.jpg',
+            imgSrc: 'images/sail_app.JPG',
             title: 'Sail App Project',
             description: 'Description of Project 2.'
         },
         {
-            imgSrc: 'images/manta_render.jpg',
+            imgSrc: 'images/manta_render.JPG',
             title: 'Magical Product Project',
             description: 'Description of Project 3.'
         },
         {
-            imgSrc: 'images/manta_sketch.jpg',
+            imgSrc: 'images/manta_sketch.JPG',
             title: 'Magical Product Sketch',
             description: 'Description of Project 4.'
         },
         {
-            imgSrc: 'images/emotephone.jpg',
+            imgSrc: 'images/emotephone.JPG',
             title: 'Interactive Website with Audio',
             description: 'Description of Project 5.'
         },
         {
-            imgSrc: 'images/personal_figma.jpg',
+            imgSrc: 'images/personal_figma.JPG',
             title: 'Figma Flow Website Design',
             description: 'Description of Project 6.'
         }
