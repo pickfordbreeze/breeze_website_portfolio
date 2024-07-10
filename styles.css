@@ -351,3 +351,150 @@ footer a {
 .about-text p strong {
     font-weight: 700;
 }
+
+/*project page*/
+/* Projects Page */
+.hero h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 350;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 0;
+}
+
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 500px;
+}
+
+.gallery-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Adjust size of current image in the gallery */
+.gallery-item img {
+    max-width: 70%;
+    /* Adjust this value as needed */
+    max-height: 70%;
+    /* Adjust this value as needed */
+    border-radius: 8px;
+    transition: max-width 0.5s ease, max-height 0.5s ease;
+}
+
+.gallery-item .caption {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.gallery-item .caption h3 {
+    font-family: 'Newsreader', serif;
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.gallery-item .caption p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.gallery-item.current {
+    opacity: 1;
+    position: relative;
+}
+
+#prevBtn,
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 0;
+    width: 160px;
+    /* Reduced size */
+    height: 160px;
+    /* Reduced size */
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+    opacity: 1;
+}
+
+#prevBtn {
+    left: 100px;
+}
+
+#nextBtn {
+    right: 100px;
+}
+
+.github {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.github h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.github-button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.github-button:hover {
+    background-color: #333;
+}
