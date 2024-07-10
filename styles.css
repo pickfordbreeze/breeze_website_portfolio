@@ -209,7 +209,9 @@ footer a {
 /* Contact Page */
 .contact-hero {
     text-align: center;
-    padding: 12rem 2rem;
+    padding: 0rem 2rem;
+    padding-bottom: 4rem;
+    padding-top: 12rem;
     background-color: #fff;
     margin-top: 0;
     margin-bottom: 0;
@@ -237,8 +239,7 @@ footer a {
 }
 
 .contact-image img {
-    width: 74.4rem;
-    height: 96.1rem;
+    width: 60rem;
     object-fit: cover;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
 }
