@@ -56,6 +56,10 @@ nav ul li a {
     font-size: 1.6rem;
 }
 
+nav ul li a:hover {
+    color: black;
+}
+
 nav ul li a.active {
     background-color: #426B1F;
     color: #fff;
@@ -64,6 +68,10 @@ nav ul li a.active {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 130%;
+}
+
+nav ul li a.active:hover {
+    background-color: #365316;
 }
 
 .menu-toggle {
@@ -190,6 +198,7 @@ footer {
     margin-top: 0;
     bottom: 0;
     height: 14rem;
+    font-size: 1.6rem;
     position: relative;
     box-sizing: border-box;
 }
@@ -286,6 +295,10 @@ footer a {
     width: 15rem;
 }
 
+.linkedin:hover {
+    background-color: #225899;
+}
+
 .github {
     background-color: #6CC644;
 }
@@ -333,11 +346,21 @@ footer a {
 }
 
 .about-info .linkedin {
-    background-color: #426B1F;
+    background-color: #2867B2;
+    padding: 2rem 4.2rem;
 }
+
+.about-info .linkedin:hover {
+    background-color: #225899;
+}
+
 
 .about-info .resume {
     background-color: #426B1F;
+}
+
+.about-info .resume:hover {
+    background-color: #365316;
 }
 
 .about-text {
@@ -502,7 +525,7 @@ footer a {
 /* General Button Styles */
 .button {
     display: inline-block;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 3.2rem;
     border-radius: 0.5rem;
     font-size: 1.8rem;
     text-decoration: none;
@@ -529,7 +552,7 @@ footer a {
 .contact-github-button {
     background-color: #6CC644;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 0.5rem;
     font-size: 1.6rem;
     text-decoration: none;
