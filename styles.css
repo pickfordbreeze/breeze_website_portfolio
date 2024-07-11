@@ -680,6 +680,16 @@ footer a {
         min-height: auto;
         /* Adjust minimum height as needed */
     }
+
+    .contact-content {
+        flex-direction: column-reverse;
+        padding: 0rem;
+    }
+
+    .contact-image {
+        margin-top: 2rem;
+        /* Add margin to separate the image from the buttons */
+    }
 }
 
 @media (max-width: 480px) {
