@@ -695,6 +695,33 @@ footer a {
     .contact-hero {
         padding: 4rem 2rem;
     }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image img {
+        width: 40rem;
+        margin: 0 auto 2rem auto;
+        /* Center the image and add bottom margin */
+    }
+
+    .about-info {
+        margin-left: 0;
+        text-align: center;
+        /* Center the text */
+    }
+
+    .about-info .button {
+        margin: 2rem auto 0 auto;
+        /* Center the buttons and add top margin */
+        display: block;
+    }
+
+    .about-text {
+        width: 40rem;
+    }
 }
 
 @media (max-width: 480px) {
