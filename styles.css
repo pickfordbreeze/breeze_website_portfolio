@@ -688,7 +688,12 @@ footer a {
 
     .contact-image {
         margin-top: 2rem;
+        width: 30rem;
         /* Add margin to separate the image from the buttons */
+    }
+
+    .contact-hero {
+        padding: 4rem 2rem;
     }
 }
 
