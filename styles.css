@@ -661,9 +661,48 @@ footer a {
         width: 10rem;
         height: 10rem;
     }
+
+    #image1,
+    #image2 {
+        width: 90%;
+        /* Adjust width for smaller screens */
+        height: auto;
+        /* Maintain aspect ratio */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2rem;
+        /* Adjust top position as needed */
+    }
+
+    .images {
+        padding: 2rem 0;
+        /* Adjust padding for smaller screens */
+        min-height: auto;
+        /* Adjust minimum height as needed */
+    }
 }
 
 @media (max-width: 480px) {
+
+    #image1,
+    #image2 {
+        width: 90%;
+        /* Further adjust width for very small screens */
+        height: auto;
+        /* Maintain aspect ratio */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2rem;
+        /* Adjust top position as needed */
+    }
+
+    .images {
+        padding: 1rem 0;
+        /* Further adjust padding for very small screens */
+        min-height: auto;
+        /* Adjust minimum height as needed */
+    }
+
     .hero .headline-small {
         font-size: 2rem;
     }
