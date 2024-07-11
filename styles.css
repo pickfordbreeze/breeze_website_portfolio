@@ -304,6 +304,7 @@ footer a {
 }
 
 /* About Page */
+
 .about-content {
     display: flex;
     justify-content: center;
@@ -312,6 +313,7 @@ footer a {
     background-color: #fff;
     margin-bottom: 0;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .about-image img {
@@ -367,7 +369,7 @@ footer a {
     padding: 1rem 4rem;
     background-color: #fff;
     width: 80rem;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
 }
 
@@ -641,6 +643,10 @@ footer a {
         margin-bottom: 2rem;
     }
 
+    .about-image img {
+        max-width: 35rem;
+    }
+
     .contact-info,
     .about-info {
         margin-left: 0;
@@ -721,6 +727,7 @@ footer a {
 
     .about-text {
         width: 30rem;
+        padding-bottom: 3rem;
     }
 }
 
